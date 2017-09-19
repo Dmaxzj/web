@@ -1,0 +1,134 @@
+body {
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	position: relative;
+}
+
+#banner {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: center;
+}
+
+.content {
+	position: relative;
+	width: 800px;
+	margin: auto;
+	border: 4px gray solid;
+}
+
+#left_content {
+	width: 550px;
+}
+
+#rotten {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+	background-repeat: repeat-x;
+	overflow: auto;
+	height: 83px;
+}
+
+#rotten img {
+	float: left;
+}
+
+#rate {
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	vertical-align: baseline;
+}
+
+#overview {
+	color: white;
+	font-size: 8pt;
+	vertical-align: baseline;
+}
+
+
+.leftCol, .rightCol {
+	width: 47%;
+	display: table-cell;
+	padding-left: 2%;
+}
+
+.rightCol {
+	padding-right: 2%;
+}
+
+.qutoeBox q {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.qutoeBox {
+	overflow: auto;
+	background-color: #E1D697;
+	border: gray 2px solid;
+	padding: 8px;
+}
+
+.qutoeBox img {
+	float: left;
+	margin-right: 5px;
+}
+
+.per_info img {
+	float: left;
+	margin-right: 5px;
+}
+
+.reviews {
+	margin-bottom: 3em;
+}
+
+.publication {
+	font-style: italic;
+}
+
+#right_content {
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+.definition dt{
+	font-weight: bold;
+}
+
+.definition {
+	padding: 0px 10px;
+	margin-top: 1em;
+}
+
+#bar {
+	clear: right;
+	margin: 0px;
+	width: 790px;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+}
+
+.w3cLink {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.w3cLink a, .w3cLink img {
+	border: 0;
+}
